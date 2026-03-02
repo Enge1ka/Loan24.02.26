@@ -1,4 +1,4 @@
-# Loan Management System
+# Loan Management System (JavaScript/Express)
 
 A system to manage customers, loans, and daily repayments.
 
@@ -13,17 +13,23 @@ A system to manage customers, loans, and daily repayments.
     - Next due date
 
 ## Tech Stack
-- FastAPI (API)
-- SQLAlchemy with SQLite (Database)
-- Pydantic (Data Validation)
+- Node.js
+- Express
+- Sequelize (SQLite)
+- Zod (Validation)
+- Jest & Supertest (Testing)
 
 ## Getting Started
 1. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   npm install
    ```
 2. Run the application:
    ```bash
-   uvicorn main:app --reload
+   node index.js
    ```
-3. Visit `http://127.0.0.1:8000/docs` for API documentation.
+
+## Testing
+```bash
+npm test
+```

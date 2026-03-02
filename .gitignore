@@ -1,9 +1,6 @@
-__pycache__/
-*.py[cod]
-*$py.class
-.env
-.venv
-venv/
-ENV/
+node_modules/
 *.db
+coverage/
 .pytest_cache/
+__pycache__/
+.env
